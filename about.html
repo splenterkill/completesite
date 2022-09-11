@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>University of cebu website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,500&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ABOUT</h1>
+</section>
+
+<!------ about us content ------>
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are University of Cebu</h1>
+            <p><b> From a modest start in 1964, the Cebu College of Commerce (CCC) of old has come a long way. Beginning with a handful of enrollees, what used to be an undersized college has succesfully evolved into a world-class university in Asia Pacific, while holding true to its philantropic mantra, "NO TUITION FEE INCREASE"
+                With forty-two (42) years of quality education, the University of Cebu (UC) has been awarded a Deregulated status by the Commision on Higher Education (CHED), while recognized by the Philippine Association of Colleges and Universities Commision on Accreditation (PACUCOA) as a learning institution with the most accredited programs.</b></p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+
+    </div>
+    
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>University of Cebu is an accessible institution within the metro, providing varied and constantly upgraded courses for the youth. <br> The campus has been and still is home to a myriad of top-notch champions in the fields of academics, technology, arts and culture, and sports.</p>
+    <h5>You can Visit our Social Media Platform below.</h5>
+    <div class="icons">
+        <a href="https://web.facebook.com/UniversityOfCebuWebmasters" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/uc_webmasters?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ucwebmaster/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    <h4>Made by <i class="fa fa-user-circle" aria-hidden="true"> Zayn Mansueto.</i>
+    </h4>
+    </p>
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle--------> 
+<script>
+
+    var navlinks = document.getElementById("navlinks")
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+
+</script>
+    
+</body>
+</html>

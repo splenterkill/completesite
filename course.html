@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>University of cebu website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,500&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>COURSES</h1>
+</section>
+
+<!------ Course ------>
+<section class="course">
+    <h1>Courses We offer</h1>
+    <p>BACHELOR'S PROGRAMS OFFERED AT UNIVERSITY OF CEBU.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>intermediate</h3>
+            <p>We proudly offer a challenging academic curriculum supplemented with a variety of extracurricular programs and services that enhance the student learning experience</p> 
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>UCLM currently provides undergraduate courses in Maritime Education, Hospitality Management, Customs Administration, Business, Accountancy, Engineering, Information Technology, Criminology, Nursing, and Teacher Education.</p>
+        </div><div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>A masters degree is one of the most common postgraduate courses completed after undergraduate study. </p>
+        </div>
+    </div>
+
+</section>
+
+<!---- Facilities ---->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>A wide range of facilities and services are available to students  on <br> and around the UC campus as well at our field facilities. Matariki building.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.jpg">
+            <h3>Campus Library</h3>
+            <p>Now available at University of Cebu College Library 3rd Floor. You can check them online and through onsite book request service.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.jpg">
+            <h3>Campus Playground</h3>
+            <p>Get better and have fun at basketball camp! Choose from over 200 boys and girls youth summer basketball camps at convenient locations across the country.</p>
+        </div><div class="facilities-col">
+            <img src="cafeteria.jpeg">
+            <h3>Campus Cafeteria</h3>
+            <p>Now available at University of Cebu College Library 3rd Floor. You can check them online and through onsite book request service.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-------- Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>University of Cebu is an accessible institution within the metro, providing varied and constantly upgraded courses for the youth. <br> The campus has been and still is home to a myriad of top-notch champions in the fields of academics, technology, arts and culture, and sports.</p>
+    <h5>You can Visit our Social Media Platform below.</h5>
+    <div class="icons">
+        <a href="https://web.facebook.com/UniversityOfCebuWebmasters" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/uc_webmasters?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ucwebmaster/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    <h4>Made by <i class="fa fa-user-circle" aria-hidden="true"> Zayn Mansueto.</i>
+    </h4>
+    </p>
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle--------> 
+<script>
+
+    var navlinks = document.getElementById("navlinks")
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+
+</script>
+    
+</body>
+</html>
